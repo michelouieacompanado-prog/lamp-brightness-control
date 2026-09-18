@@ -54,3 +54,32 @@ I implemented the decision-making logic inside a function with the following sig
 
 6. **If `lampBrightness` is declared inside `setup()`, can `loop()` access it directly? Explain.**
    * No. Variables declared inside `setup()` have local scope, meaning they only exist within `setup()`. `loop()` cannot access local variables declared in another function.
+  
+## Serial Monitor Output Verification
+
+### Case 1: Switch ON, Brightness = 0
+<img width="1366" height="729" alt="0, true" src="https://github.com/user-attachments/assets/ae9f5e34-c895-42cf-8777-4bc332d7132c" />
+
+
+### Case 2: Switch ON, Brightness = 50
+<img width="1366" height="728" alt="50, true" src="https://github.com/user-attachments/assets/1f4c4214-5cea-4974-a80a-3693e1d6be38" />
+
+
+### Case 3: Switch ON, Brightness = 100
+<img width="1366" height="730" alt="100, true" src="https://github.com/user-attachments/assets/e8d5de8b-ff9e-4417-b766-6c5b48c1f818" />
+
+
+### Case 4: Switch OFF, Brightness = 0
+<img width="1366" height="729" alt="0, false" src="https://github.com/user-attachments/assets/8767914b-815c-456c-867f-528cda097244" />
+
+
+### Case 5: Switch OFF, Brightness = 50
+<img width="1366" height="730" alt="50, false" src="https://github.com/user-attachments/assets/ca1528ed-c7c6-4e17-a99f-feb8435eda5a" />
+
+
+### Case 6: Switch OFF, Brightness = 100
+<img width="1366" height="730" alt="100, false" src="https://github.com/user-attachments/assets/fc3787c8-341b-49b6-aaa9-aaa969478378" />
+
+
+
+
